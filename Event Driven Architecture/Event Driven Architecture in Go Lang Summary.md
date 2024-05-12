@@ -9,7 +9,7 @@ Three different patterns for EDA:
 - Event Sourcing
 
 
- ### Event Notifications
+### Event Notifications
  
 Carry the minimum state (maybe just an ID). Consumers may need to call-back to the originator to fetch additional information.
 
@@ -38,6 +38,9 @@ type Payment Received struct {
 ### Event Sourcing
 
 Streams of events are stored and can be read/processed to recreate the final state of an entity.
+
+
+
 
 
 
