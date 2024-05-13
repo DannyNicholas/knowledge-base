@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Event Driven Architecture/Event Driven Architecture in Go Lang Summary.md",
+                "file": "Spring Batch/Spring Batch.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Event Driven Architecture/Event Driven Architecture in Go Lang Summary.md",
+                "file": "Spring Batch/Spring Batch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Event Driven Architecture/Event Driven Architecture in Go Lang Summary.md",
+                "file": "Spring Batch/Spring Batch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Event Driven Architecture/Event Driven Architecture in Go Lang Summary.md"
+                "file": "Spring Batch/Spring Batch.md"
               }
             }
           }
@@ -148,11 +148,17 @@
   },
   "active": "a7d88fd7eb254e8e",
   "lastOpenFiles": [
+    "Spring Batch/assets/architecture.png",
+    "Spring Batch/Spring Batch.md",
+    "Spring Batch/assets/relational-model.png",
+    "Spring Batch/assets",
+    "Spring Batch/assets/domain-model.png",
+    "Event Driven Architecture/Event Driven Architecture in Go Lang Summary.md",
+    "Spring Batch",
     "Artificial Intelligence/Overview.md",
     "Artificial Intelligence/Voyager.md",
     "neo4j/Cypher.md",
     "neo4j/Neo4j.md",
-    "Event Driven Architecture/Event Driven Architecture in Go Lang Summary.md",
     "Welcome.md",
     "README.md",
     "Event Driven Architecture",
