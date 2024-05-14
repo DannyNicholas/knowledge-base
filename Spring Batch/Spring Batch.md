@@ -31,3 +31,9 @@ The following diagram shows the layered architecture:
 - `Batch Core` : core runtime classes provided by Spring Batch that are necessary to create and control batch jobs.
 - `Batch Infrastructure` : common item readers and writers provided by Spring Batch, plus base services such as the repeat and retry mechanisms.
 
+## Launching Jobs
+
+
+The following diagram shows how the `JobLauncher`, the `JobRepository` and the `Job` interact with each other.
+
+![[launching-jobs.png]]
