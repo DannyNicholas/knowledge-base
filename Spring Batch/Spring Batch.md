@@ -37,3 +37,13 @@ The following diagram shows the layered architecture:
 The following diagram shows how the `JobLauncher`, the `JobRepository` and the `Job` interact with each other.
 
 ![[launching-jobs.png]]
+
+
+## Features
+
+Transaction Management
+Chunk Based Processing
+Declarative I/O
+Start/Stop/Restart
+Retry/Skip
+Web based administration interface (Spring Cloud Data)
