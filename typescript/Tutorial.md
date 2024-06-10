@@ -113,14 +113,6 @@ Can specify your own values:
 
 ```
 const enum Size {
-    Small = 0, Medium = 1, Large = 2
-}
-```
-
-...or...
-
-```
-const enum Size {
     Small = 's', Medium = 'm', Large = 'l'
 }
 ```
