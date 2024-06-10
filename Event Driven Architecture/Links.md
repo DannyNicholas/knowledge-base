@@ -1,0 +1,1 @@
+[Event Driven Architecture | Serverless Land](https://serverlessland.com/event-driven-architecture)

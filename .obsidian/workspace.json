@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring Batch/Spring Batch.md",
+                "file": "Event Driven Architecture/Links.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring Batch/Spring Batch.md",
+                "file": "Event Driven Architecture/Links.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring Batch/Spring Batch.md",
+                "file": "Event Driven Architecture/Links.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring Batch/Spring Batch.md"
+                "file": "Event Driven Architecture/Links.md"
               }
             }
           }
@@ -148,16 +148,17 @@
   },
   "active": "a7d88fd7eb254e8e",
   "lastOpenFiles": [
+    "Event Driven Architecture/Event Driven Architecture in Go Lang Summary.md",
+    "Event Driven Architecture/Links.md",
+    "Spring Batch/Spring Batch.md",
     "Spring Batch/assets/job-parameters.png",
     "Spring Batch/assets/job-execution.png",
     "Spring Batch/assets/job-instance-lifecycle.png",
-    "Spring Batch/Spring Batch.md",
     "Spring Batch/assets/launching-jobs.png",
     "Spring Batch/assets/architecture.png",
     "Spring Batch/assets/relational-model.png",
     "Spring Batch/assets",
     "Spring Batch/assets/domain-model.png",
-    "Event Driven Architecture/Event Driven Architecture in Go Lang Summary.md",
     "Spring Batch",
     "Artificial Intelligence/Overview.md",
     "Artificial Intelligence/Voyager.md",
