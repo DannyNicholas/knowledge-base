@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Event Driven Architecture/Links.md",
+                "file": "typescript/React/React with Typescript.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Event Driven Architecture/Links.md",
+                "file": "typescript/React/React with Typescript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Event Driven Architecture/Links.md",
+                "file": "typescript/React/React with Typescript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Event Driven Architecture/Links.md"
+                "file": "typescript/React/React with Typescript.md"
               }
             }
           }
@@ -148,8 +148,11 @@
   },
   "active": "a7d88fd7eb254e8e",
   "lastOpenFiles": [
-    "Event Driven Architecture/Event Driven Architecture in Go Lang Summary.md",
     "Event Driven Architecture/Links.md",
+    "typescript/React/React with Typescript.md",
+    "typescript/React",
+    "typescript",
+    "Event Driven Architecture/Event Driven Architecture in Go Lang Summary.md",
     "Spring Batch/Spring Batch.md",
     "Spring Batch/assets/job-parameters.png",
     "Spring Batch/assets/job-execution.png",
