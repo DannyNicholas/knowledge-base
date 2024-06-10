@@ -26,7 +26,11 @@ tsc --init
 "sourceMap": true,
 "outDir": "./dist",
 "removeComments": true,
- "noEmitOnError": true,
+"noEmitOnError": true,
+"noImplicitAny": true,
+"noUnusedLocals": true,
+"noUnusedParameters": true,
+"noImplicitReturns": true,
 ```
 
 ### Compile
@@ -87,7 +91,7 @@ node dist/<file>.js
 
 ![[built-in-types.png]]
 
-**Tuples**
+### Tuples
 
 For example, a user represented by id and name:
 
@@ -95,7 +99,7 @@ For example, a user represented by id and name:
 let user: [number, string] = [1, 'Mosh']
 ```
 
-**Enums**
+### Enums
 
 Recommended to use `const` with enums for more optimised compiled code:
 
@@ -116,3 +120,50 @@ const enum Size {
     Small = 's', Medium = 'm', Large = 'l'
 }
 ```
+
+### Functions
+
+Declare your return types to avoid unexpected implicit return types:
+
+```
+function calculateTax(income: number): number {
+    return income * 1.2
+}
+```
+
+Compiler will error if incorrect number of parameters or parameters of incorrect type are supplied.
+
+Default values:
+
+```
+function calculateTax(income: number = 100): number {
+    return income * 1.2
+}
+```
+
+> `income` will default to `100` if not supplied.
+
+### Objects
+
+Typescript compiler can infer the shape of your object:
+
+![[object.png]]
+
+
+Can declare types:
+
+```
+let employee: {
+    readonly id: number,
+    name: string,
+    retire: (date:Date)
+    fax?: string,
+} = { id: 1, name: 'Dan'}
+```
+
+> `id` is `readonly` so can not be modified.
+
+> Not everyone has a fax machine. `fax` is an optional property due to `?` at end.
+
+
+
