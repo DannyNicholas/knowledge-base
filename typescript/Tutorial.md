@@ -165,5 +165,123 @@ let employee: {
 
 > Not everyone has a fax machine. `fax` is an optional property due to `?` at end.
 
+Can also declare objects with functions:
 
+```
+let maths: {
+    multiply: (value: number) => number
+} = {
+    multiply: (value: number) => value * 10
+}
+
+let result = maths.multiply(10)
+```
+
+### Type Alias
+
+Types can:
+- single place to define the shape of an object
+- can be referenced wherever type is needed
+- can keep code cleaner and follows DRY principals
+
+```
+type Employee = {
+    readonly id: number,
+    name: string
+    retire: (date: Date) => void
+}
+```
+
+
+```
+let employeeDan: Employee = {
+    id: 1,
+    name: 'Dan',
+    retire: (date: Date) => console.log(date)
+}
+```
+
+### Union Types
+
+Function written to convert kg to lbs - can take either a `number` or `string` so we use a union type.
+
+```
+function kgToLbs(weight: number | string): number {
+    // narrowing
+    if (typeof weight === 'number') {
+        // compiler knows weight is now a number
+        return weight * 2.2
+    } else {
+        // compiler knows weight is now a string
+        return parseInt(weight) * 2.2
+    }
+}
+```
+
+Can be called using either:
+
+```
+let weight1 = kgToLbs(10)
+let weight2 = kgToLbs('10kg')
+```
+
+
+### Intersection Types
+
+Types that can be multiple types.
+
+```
+type Draggable = {
+    drag: () => void
+}
+
+type Resizable = {
+    resize: () => void
+}
+
+// UI widget is both draggable and re-sizeable
+type UIWidget = Draggable & Resizable
+
+// create a UI widget
+let textBox: UIWidget = {
+    drag: () => { console.log("drag") },
+    resize: () => { console.log("resize") }
+}
+```
+
+### Literal Types
+
+Only allows specific (or exact) values to be set.
+
+```
+// quantity can only be 50 or 100
+let quantity: 50 | 100 = 100
+```
+
+Alternatively:
+
+```
+type Quantity = 50 | 100
+let quantity: Quantity = 100
+```
+
+### Nullable Types
+
+Normally passing a `null` such as `greet(null)` would result in a compilation error.
+
+We may want function to handle `null` values.
+
+```
+function greet(name: string | null) {
+    if (name) {
+        console.log(name.toUpperCase())
+    } else {
+        console.log("Hello stranger")
+    }
+}
+```
+
+We could also allow the function to handle `undefined` values by adding that type too.
+
+### Optional Chaining
 
