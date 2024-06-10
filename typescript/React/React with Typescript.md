@@ -11,3 +11,5 @@ Adopting TypeScript in any project can be broken down into 2 phases:
 
 - Adding the TypeScript compiler (tsc) to your build pipeline.
 - Converting JavaScript files into TypeScript files.
+
+

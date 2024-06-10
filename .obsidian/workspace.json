@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "typescript/React/React with Typescript.md",
+                "file": "typescript/Tutorial.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "typescript/React/React with Typescript.md",
+                "file": "typescript/Tutorial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "typescript/React/React with Typescript.md",
+                "file": "typescript/Tutorial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "typescript/React/React with Typescript.md"
+                "file": "typescript/Tutorial.md"
               }
             }
           }
@@ -146,10 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a7d88fd7eb254e8e",
+  "active": "2ffcd37b3ffe1602",
   "lastOpenFiles": [
-    "Event Driven Architecture/Links.md",
+    "typescript/assets",
+    "typescript/assets/built-in-types.png",
     "typescript/React/React with Typescript.md",
+    "typescript/Tutorial.md",
+    "Event Driven Architecture/Links.md",
     "typescript/React",
     "typescript",
     "Event Driven Architecture/Event Driven Architecture in Go Lang Summary.md",
@@ -176,7 +179,6 @@
     "neo4j/assets/person-movie.png",
     "Artificial Intelligence/LangChain.md",
     "Artificial Intelligence/assets/voyager6.png",
-    "Artificial Intelligence/assets/voyager5.png",
     "Artificial Intelligence/assets",
     "Artificial Intelligence",
     "neo4j/assets",
