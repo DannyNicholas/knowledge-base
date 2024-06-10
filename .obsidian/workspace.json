@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5a24e02f9853f326",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,10 +157,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2ffcd37b3ffe1602",
+  "active": "5a24e02f9853f326",
   "lastOpenFiles": [
-    "Pasted image 20240610164441.png",
+    "2024-06-10.md",
     "typescript/Tutorial.md",
+    "Untitled.canvas",
+    "Pasted image 20240610164441.png",
     "typescript/assets/object.png",
     "typescript/assets",
     "typescript/assets/built-in-types.png",
@@ -177,7 +190,6 @@
     "Event Driven Architecture",
     "RE",
     "2024-05-12.md",
-    "Untitled.canvas",
     "Artificial Intelligence/LangChain.md",
     "Artificial Intelligence/assets",
     "Artificial Intelligence",

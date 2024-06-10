@@ -15,7 +15,7 @@ Version 5.4.5
 tsc --init
 ```
 
-> This will create a new `tscongig.js` file.
+> This will create a new `tsconfig.js` file.
 
 **Recommended changes:**
 
@@ -285,3 +285,40 @@ We could also allow the function to handle `undefined` values by adding that typ
 
 ### Optional Chaining
 
+Can handle property chaining if value is `undefined` or `null`.
+
+```
+type Customer = {
+    birthday: Date
+}
+
+function getCustomer(id: number): Customer | null | undefined {
+    return id === 0 ? null : { birthday: new Date() }
+}
+
+// can be null
+let customer = getCustomer(0)
+
+// optional property access operator
+// will return undefined if customer is null
+let year = customer?.birthday?.getFullYear()
+```
+
+Handling a null array
+
+```
+let myNumbers: number[] | null = null
+
+// will be undefined if array is null
+let value: number | undefined = myNumbers?.[0]
+```
+
+
+Optional function calling
+
+```
+let log: any = <set to some function that could be null>
+
+// will only execute log function if it references an actual function
+log?.(100)
+```
