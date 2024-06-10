@@ -81,5 +81,21 @@ Compiled `.js` will be created under `/dist` folder.
 
 ![[built-in-types.png]]
 
+**Tuples**
 
+For example, a user represented by id and name,
+```
+let user: [number, string] = [1, 'Mosh']
+```
 
+**Enums**
+
+```
+enum Size {
+    Small, Medium, Large
+}
+
+let mySize: Size = Size.Large
+```
+
+xx
