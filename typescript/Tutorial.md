@@ -39,6 +39,12 @@ tsc
 
 Compiled `.js` will be created under `/dist` folder.
 
+Run using:
+
+```
+node dist/<file>.js
+```
+
 ### Debugging in VS Code
 
 - Click "Run and Debug" (left panel).
@@ -83,19 +89,38 @@ Compiled `.js` will be created under `/dist` folder.
 
 **Tuples**
 
-For example, a user represented by id and name,
+For example, a user represented by id and name:
+
 ```
 let user: [number, string] = [1, 'Mosh']
 ```
 
 **Enums**
 
+Recommended to use `const` with enums for more optimised compiled code:
+
 ```
-enum Size {
+const enum Size {
     Small, Medium, Large
 }
 
 let mySize: Size = Size.Large
 ```
 
-xx
+By default, enums get mapped to numbers. logging `mySize` would return `2`.
+
+Can specify your own values:
+
+```
+const enum Size {
+    Small = 0, Medium = 1, Large = 2
+}
+```
+
+...or...
+
+```
+const enum Size {
+    Small = 's', Medium = 'm', Large = 'l'
+}
+```
