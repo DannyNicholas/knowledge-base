@@ -23,9 +23,11 @@
             "id": "5a24e02f9853f326",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.3"
+                "file": "typescript/Tutorial.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
