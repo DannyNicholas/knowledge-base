@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "typescript/Tutorial.md",
+                "file": "Amazon Web Services/Static Web Sites.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "typescript/Tutorial.md",
+                "file": "Amazon Web Services/Static Web Sites.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "typescript/Tutorial.md",
+                "file": "Amazon Web Services/Static Web Sites.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "typescript/Tutorial.md"
+                "file": "Amazon Web Services/Static Web Sites.md"
               }
             }
           }
@@ -161,9 +161,11 @@
   },
   "active": "5a24e02f9853f326",
   "lastOpenFiles": [
-    "2024-06-10.md",
-    "typescript/Tutorial.md",
     "Untitled.canvas",
+    "Amazon Web Services/Static Web Sites.md",
+    "Amazon Web Services",
+    "typescript/Tutorial.md",
+    "2024-06-10.md",
     "Pasted image 20240610164441.png",
     "typescript/assets/object.png",
     "typescript/assets",
@@ -195,7 +197,6 @@
     "Artificial Intelligence/LangChain.md",
     "Artificial Intelligence/assets",
     "Artificial Intelligence",
-    "neo4j/assets",
     "cypher-fundamentals.md"
   ]
 }
