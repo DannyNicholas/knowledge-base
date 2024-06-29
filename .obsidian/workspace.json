@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Amazon Web Services/Static Web Sites.md",
+                "file": "Amazon Web Services/Billing Alerts.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Amazon Web Services/Static Web Sites.md",
+                "file": "Amazon Web Services/Billing Alerts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Amazon Web Services/Static Web Sites.md",
+                "file": "Amazon Web Services/Billing Alerts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Amazon Web Services/Static Web Sites.md"
+                "file": "Amazon Web Services/Billing Alerts.md"
               }
             }
           }
@@ -161,8 +161,9 @@
   },
   "active": "5a24e02f9853f326",
   "lastOpenFiles": [
-    "Untitled.canvas",
     "Amazon Web Services/Static Web Sites.md",
+    "Amazon Web Services/Billing Alerts.md",
+    "Untitled.canvas",
     "Amazon Web Services",
     "typescript/Tutorial.md",
     "2024-06-10.md",
