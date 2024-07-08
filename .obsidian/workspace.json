@@ -25,14 +25,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Amazon Web Services/Billing Alerts.md",
+                "file": "typescript/Tutorial.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "995cfe163d5b0aa8",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Amazon Web Services/Billing Alerts.md",
+                "file": "typescript/Tutorial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Amazon Web Services/Billing Alerts.md",
+                "file": "typescript/Tutorial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Amazon Web Services/Billing Alerts.md"
+                "file": "typescript/Tutorial.md"
               }
             }
           }
@@ -159,10 +169,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5a24e02f9853f326",
+  "active": "995cfe163d5b0aa8",
   "lastOpenFiles": [
-    "Amazon Web Services/Static Web Sites.md",
+    "typescript/React/React with Typescript.md",
     "Amazon Web Services/Billing Alerts.md",
+    "Amazon Web Services/Static Web Sites.md",
     "Untitled.canvas",
     "Amazon Web Services",
     "typescript/Tutorial.md",
@@ -171,7 +182,6 @@
     "typescript/assets/object.png",
     "typescript/assets",
     "typescript/assets/built-in-types.png",
-    "typescript/React/React with Typescript.md",
     "Event Driven Architecture/Links.md",
     "typescript/React",
     "typescript",
