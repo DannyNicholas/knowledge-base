@@ -35,9 +35,11 @@
             "id": "995cfe163d5b0aa8",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.5"
+                "file": "typescript/Tutorial.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -171,6 +173,7 @@
   },
   "active": "995cfe163d5b0aa8",
   "lastOpenFiles": [
+    "typescript/assets/built-in-types.png",
     "typescript/React/React with Typescript.md",
     "Amazon Web Services/Billing Alerts.md",
     "Amazon Web Services/Static Web Sites.md",
@@ -181,7 +184,6 @@
     "Pasted image 20240610164441.png",
     "typescript/assets/object.png",
     "typescript/assets",
-    "typescript/assets/built-in-types.png",
     "Event Driven Architecture/Links.md",
     "typescript/React",
     "typescript",
