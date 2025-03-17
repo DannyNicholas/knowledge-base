@@ -67,12 +67,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/AWS Certified Solutions Architect - Associate/Introduction.md",
+                "file": "AWS/AWS Certified Solutions Architect - Associate/Getting Started.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction"
+              "title": "Getting Started"
             }
           }
         ],
@@ -221,6 +221,7 @@
   "active": "b70080c32da841dc",
   "lastOpenFiles": [
     "AWS/AWS Certified Solutions Architect - Associate/Introduction.md",
+    "AWS/AWS Certified Solutions Architect - Associate/Getting Started.md",
     "AWS/AWS Certified Solutions Architect - Associate",
     "AWS",
     "2024-10-29.md",
