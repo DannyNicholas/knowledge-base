@@ -65,12 +65,14 @@
             "id": "b70080c32da841dc",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.9"
+                "file": "AWS/AWS Certified Solutions Architect - Associate/Introduction.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "icon": "lucide-file",
+              "title": "Introduction"
             }
           }
         ],
@@ -218,6 +220,7 @@
   },
   "active": "b70080c32da841dc",
   "lastOpenFiles": [
+    "AWS/AWS Certified Solutions Architect - Associate/Introduction.md",
     "AWS/AWS Certified Solutions Architect - Associate",
     "AWS",
     "2024-10-29.md",
@@ -257,7 +260,6 @@
     "RE",
     "2024-05-12.md",
     "Artificial Intelligence/LangChain.md",
-    "Artificial Intelligence/assets",
     "cypher-fundamentals.md"
   ]
 }
