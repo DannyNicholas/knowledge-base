@@ -57,12 +57,24 @@
               "state": {
                 "currentVersion": "1.7.7"
               },
-              "icon": "lucide-file",
+              "icon": "lucide-book-up",
               "title": "Release Notes 1.7.7"
+            }
+          },
+          {
+            "id": "b70080c32da841dc",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -81,7 +93,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -203,8 +216,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "44cf146f45d88a81",
+  "active": "b70080c32da841dc",
   "lastOpenFiles": [
+    "AWS/AWS Certified Solutions Architect - Associate",
+    "AWS",
     "2024-10-29.md",
     "Untitled 1.canvas",
     "typescript/assets/built-in-types.png",
@@ -243,7 +258,6 @@
     "2024-05-12.md",
     "Artificial Intelligence/LangChain.md",
     "Artificial Intelligence/assets",
-    "Artificial Intelligence",
     "cypher-fundamentals.md"
   ]
 }
